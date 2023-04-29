@@ -1,70 +1,29 @@
-.categories{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #C0C0C0;
+}
+
+.headline{
+    font-size: 6rem;
     font-weight: bolder;
     margin: 30px;
   }
   
-  .project-row {
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  .sub-header{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 30px;
   }
-  
-  .box-one {
-    width: 612px;
-    height: 260px;
-    margin: 10px 10px 0px 10px;
-    background-color: #D7DBDD;
-    text-align: center;
-    color: black;
-    line-height: 260px;
-    border-radius: 25px;
-    object-fit: cover;
-    background-size: cover;
-    object-position: center;
+
+  .avatar{
+    max-width: 20%;
+    max-height: 20%;
   }
-  
-  .box-two {
-    width: 408px;
-    height: 260px;
-    margin: 10px 10px 0px 10px;
-    background-color: #D7DBDD;
-    text-align: center;
-    color: black;
-    line-height: 260px;
-    border-radius: 25px;
-    object-fit: cover;
-    background-size: cover;
-    object-position: center;
-  }
-  
-  .box-three {
-    display: flex;
-    flex-direction: column;
-    width: 340px;
-    height: 260px;
-    margin: 10px 10px 0px 10px;
-    background-color: #D7DBDD;
-    text-align: center;
-    color: black;
-    border-radius: 25px;
-    object-fit: cover;
-    background-size: cover;
-    object-position: center;
-  }
-  
-  .standard-title{ 
-    line-height: 260px;
-  }
-  
-  .box-title{ 
-    padding-top: 70px;
-  }
-  
-  .box-subtitle{
-    font-size: .4em;
+
+  .logo{
+    max-width: 10%;
+    max-height: 10%;
   }
