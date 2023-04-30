@@ -1,4 +1,4 @@
-.main{
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,24 +6,31 @@
   color: #C0C0C0;
 }
 
-.headline{
-    font-size: 6rem;
-    font-weight: bolder;
-    margin: 30px;
-  }
-  
-  .sub-header{
-    font-size: 1.5rem;
-    font-weight: bolder;
-    margin: 30px;
-  }
+.headline {
+  font-size: 6rem;
+  font-weight: bolder;
+  margin: 30px;
+}
 
-  .avatar{
-    max-width: 20%;
-    max-height: 20%;
-  }
+.sub-header {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: 30px;
+}
 
-  .logo{
-    max-width: 10%;
-    max-height: 10%;
-  }
+.mission {
+  max-width: 40%;
+  margin: 30px 0px 30px 0px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+.avatar {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.logo {
+  max-width: 10%;
+  max-height: 10%;
+}
