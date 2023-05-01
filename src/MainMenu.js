@@ -46,6 +46,7 @@ console.log(aboutMe)
       <p>{aboutMe && aboutMe.items[0].fields.text}</p>
     </div>
     <img src={require("./img/logo.png")} alt="personal logo" className="logo" />
+    <div className="section">© Justin Kyle Phillips 2023</div>
     </div>
   );
 }

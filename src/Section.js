@@ -3,8 +3,6 @@ import "./Section.css";
 
 export default function Section(props) {
 
-console.log('https:' + props.props.fields.coverImage.fields.file.url)
-
   return (
     
         <div className="section-card">
@@ -12,8 +10,9 @@ console.log('https:' + props.props.fields.coverImage.fields.file.url)
           <div className="section-card-title">
           {props.props.fields.name}
           </div>  
+          <hr/>
           <div className="section-card-details">
-          {props.props.fields.description}
+          {props.props.fields.slug}
           </div>
         </div>
     )
