@@ -1,16 +1,11 @@
-import React from "react";
 import "./Footer.css";
-//import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
     <div className="footer">
-      <div className="left">
-      <a href="https://www.github.com/jphill4884" target="_blank" rel="noreferrer">GitHub</a>
-      </div>
-      <div className="right">
-      <span>© Justin Kyle Phillips 2023</span>
-      </div>
+      <img src={require("./img/oktocat.png")} alt="github logo" className="footer-image"/>
+      <img src={require("./img/linkedin_2.jpg")} alt="linkedin logo" className="footer-image"/>
+      <img src={require("./img/facebook_2.jpg")} alt="facebook logo" className="footer-image"/>
     </div>
   );
 }
