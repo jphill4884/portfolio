@@ -1,19 +1,19 @@
-import React from 'react';
 import "./Section.css";
-import { NavLink } from "react-router-dom";
 
 
 export default function Section(props) {
 
+console.log('https:' + props.props.fields.coverImage.fields.file.url)
 
   return (
     
         <div className="section-card">
+          <img src={'https:' + props.props.fields.coverImage.fields.file.url} alt="screencap of project" />
           <div className="section-card-title">
-            <a href={props.story.url} target="_blank" rel="noopener noreferrer" className="story-title">{props.story.title}</a>
+          {props.props.fields.name}
           </div>  
-          <div className="story-card-details">
-            <p><NavLink to = {"/"+props.story.objectID}>{props.story.num_comments} comments</NavLink></p>
+          <div className="section-card-details">
+          {props.props.fields.description}
           </div>
         </div>
     )
