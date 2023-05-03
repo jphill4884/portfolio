@@ -1,9 +1,10 @@
-.main {
+.main, .project-link {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #C0C0C0;
+  text-decoration: none;
 }
 
 .headline {
@@ -40,5 +41,7 @@ h2{
 }
 
 .section{
+  display: flex;
+  flex-direction: row;
   margin: 10px 0px 20px 0px;
 }

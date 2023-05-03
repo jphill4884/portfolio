@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./NavBar.css";
-//import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
+
+  const projectsRef = useRef(null);
+
+  const handleProjectsClick = () => {
+    const lastChildElement = projectsRef.current?.lastElementChild;
+    lastChildElement?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="navbar">
-        <span className="navbar-link">Projects</span>
-        <span className="navbar-link">Something</span>
+        <span onClick={handleProjectsClick} className="navbar-link">Projects</span>
+        <span className="navbar-link">About Me</span>
         <span className="navbar-link">Resume</span>
       </div>
   );
