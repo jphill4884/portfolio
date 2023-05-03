@@ -1,21 +1,17 @@
-import React from "react";
-import "./App.css";
-import MainMenu from "./MainMenu";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import { Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import ProjectPage from './ProjectPage';
+import GasPage from './GasPage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <NavBar></NavBar>
-      </header>
-      <main>
-        <MainMenu></MainMenu>
-      </main>
-      <footer>
-        <Footer></Footer>
-      </footer>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/web/:projectId" element={<ProjectPage />} />
+        <Route path="/gas/:gasId" element={<GasPage />} />
+      </Routes>
     </div>
   );
 }
