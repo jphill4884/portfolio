@@ -1,0 +1,120 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #A9A9A9;
+    width: 35%;
+    text-align: left;
+}
+
+.divider-small{
+    background-color: #696969;
+    color: #F5F5F5;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 4.5rem;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+.contact{
+    color: #F5F5F5;
+    padding: 20px 0px 20px 10px;
+}
+
+.contact-link{
+    color: #F5F5F5;
+}
+
+.sub-section{
+    color: #F5F5F5;
+    margin: 10px;
+}
+
+.sub-section span, a{
+    font-weight: bold;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+.small-icon{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+}
+
+td{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #F5F5F5;
+    padding: 15px 5px 15px 5px;    
+}
+
+.col-one{
+    width: 30%;
+}
+
+.references-section{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: #F5F5F5;
+    padding: 20px 0px 20px 10px;
+}
+
+.skill-section{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FDFEFE;
+    padding: 20px 0px 20px 10px;
+}
+
+.skill-name{
+    padding-bottom: 5px;
+}
+
+.skill-bar{
+    padding-bottom: 15px;
+    min-width: 20%;
+}
+
+.skill-rank{
+    background-color: #424949;
+    color: #424949;
+    margin-right: 15px;
+    min-width: 90%;
+}
+
+.scale{
+    display: flex;
+    flex-direction: row;
+    }
+
+@media screen and (max-width: 430px) {
+    .sidebar{
+    min-width: 100%;
+    }
+
+    .sub-section span, a{
+        font-size: 1rem;
+        padding-left: 5px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .name{
+        font-weight: bolder;
+        font-size: 3rem;
+        color: #FDFEFE;
+        text-align: center;
+    }
+
+    .sub-section span, a{
+        font-size: .8rem;
+        margin: 10px 5px 10px 5px;
+    }
+  }

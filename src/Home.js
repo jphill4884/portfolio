@@ -2,6 +2,7 @@ import './App.css';
 import MainMenu from './MainMenu';
 import NavBar from './NavBar';
 import Footer from './Footer';
+import './Footer.css';
 
 function Home() {
   return (
@@ -9,12 +10,8 @@ function Home() {
       <header className="App-header">
         <NavBar />
       </header>
-      <main>
         <MainMenu />
-      </main>
-      <footer>
         <Footer />
-      </footer>
     </div>
   );
 }

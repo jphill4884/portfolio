@@ -1,0 +1,114 @@
+.main-resume{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    background-color: #F5F5F5;
+    text-align: left;
+}
+
+.body-resume{
+    padding: 20px 0px 20px 60px;
+}
+
+.divider-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.divider-large{
+    background-color: #696969;
+    color: #F5F5F5;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+}
+
+.large-icon{
+    width: 40px;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    opacity: .7;
+} 
+
+ul {
+    list-style-type: square;
+  }
+
+  .company{
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+  .title{
+    font-size: 1.1rem;
+    font-style: italic;
+    padding-left: 10px;
+  }
+
+  .date{
+    font-size: .9rem;
+    padding: 0px 2px 0px 2px;
+  }
+  
+  .date-row{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+
+.education{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 430px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; 
+    }
+
+    .body{
+        padding: 10px;
+    }
+
+    .mission{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .large-icon {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+    } 
+  }
+
+@media screen and (max-width: 1070px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%; 
+    }
+
+    .body{
+        padding: 10px;
+    }
+
+    .mission{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .large-icon {
+        visibility: hidden;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+    } 
+  }
