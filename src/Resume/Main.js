@@ -26,6 +26,7 @@ function Main() {
 
   return (
     <div className="main-resume">
+    <NavBar />
       <div className="divider-row">
         <img
           src={require("../img/career.png")}
