@@ -16,3 +16,16 @@
     margin: 5px 20px 5px 20px;
     opacity: .8;
 }
+
+@media screen and (max-width: 430px) {
+    .footer-image{
+        margin-bottom: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .footer-image{
+        margin-bottom: 5px;
+        padding: 0px;
+    }
+  }

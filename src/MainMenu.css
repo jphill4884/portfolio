@@ -43,5 +43,74 @@ h2{
 .section{
   display: flex;
   flex-direction: row;
-  margin: 10px 0px 20px 0px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 420px) {
+  .main, .project-link{
+    flex: 0 0 auto;
+    flex-direction: column;
+  }
+
+  .section{
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .project-link{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .headline{
+    font-size: 4rem;
+  }
+
+  .sub-header{
+    font-size: 1.3rem;
+  }
+
+  .mission {
+    max-width: 70%;
+  }
+
+  .logo {
+    max-width: 40%;
+    max-height: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main, .project-link{
+    flex: 0 0 auto;
+  }
+
+  .section{
+    flex: 0 0 auto;
+    max-width: 600px;
+    flex-wrap: wrap;
+    margin: 10px auto 10px auto;
+  }
+
+  .mission {
+    max-width: 70%;
+  }
+
+  .project-link{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+
+  .logo {
+    max-width: 30%;
+    max-height: 30%;
+  }
 }
