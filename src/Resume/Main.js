@@ -1,10 +1,9 @@
-import { useEffect, useState } from "react";
-import client from "./Contentful.js";
-import "./Main.css";
-import Mission from "./Mission.js";
-import Job from "./Job.js";
-import Education from "./Education.js";
-import NavBar from "../NavBar.js";
+import { useEffect, useState } from 'react';
+import client from './Contentful.js';
+import './Main.css';
+import Mission from './Mission.js';
+import Job from './Job.js';
+import Education from './Education.js';
 
 function Main() {
 
@@ -26,7 +25,6 @@ function Main() {
 
   return (
     <div className="main-resume">
-    <NavBar />
       <div className="divider-row">
         <img
           src={require("../img/career.png")}
