@@ -18,9 +18,3 @@ main{
   align-content: center;
   justify-content: center;
 }
-
-footer{
-  position: sticky;
-  bottom: 0;
-  width: 100%;
-}

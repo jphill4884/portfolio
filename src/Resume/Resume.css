@@ -1,0 +1,23 @@
+.resume{
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 430px) {
+  .resume{
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .resume{
+    flex: 0 0 auto;
+    margin-top: 0px;
+  }
+}

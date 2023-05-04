@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Client from './Contentful';
 import Section from './Section';
 import './MainMenu.css';
+import './Footer.css';
 
 function MainMenu() {
   const [mission, setMission] = useState();
@@ -39,7 +40,7 @@ function MainMenu() {
 
   return (
     <div className="main">
-      <div className="headline">KYLE PHILLIPS</div>
+      <div className="headline" id='home'>KYLE PHILLIPS</div>
       <div className="sub-header"> RECENTLY QUALIFIED FULL-STACK DEVELOPER</div>
       <img
         src={require("./img/hey.png")}
@@ -49,7 +50,7 @@ function MainMenu() {
       <div className="mission">
         {mission && mission.items[0].fields.missionStatement}
       </div>
-      <h2>Web Projects</h2>
+      <h2 id='projects'>Web Projects</h2>
         <div className="section">
           {webProjects &&
             webProjects.items
@@ -68,7 +69,7 @@ function MainMenu() {
               </Link>
             ))}
         </div>
-      <div className="mission">
+      <div className="mission" id='about-me'>
         <h2>About Me</h2>
         <p>{aboutMe && aboutMe.items[0].fields.text}</p>
       </div>

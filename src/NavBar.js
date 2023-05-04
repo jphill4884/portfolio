@@ -1,20 +1,15 @@
-import React, { useRef } from "react";
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import "./NavBar.css";
 
 export default function NavBar() {
 
-  const projectsRef = useRef(null);
-
-  const handleProjectsClick = () => {
-    const lastChildElement = projectsRef.current?.lastElementChild;
-    lastChildElement?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <div className="navbar">
-        <span onClick={handleProjectsClick} className="navbar-link">Projects</span>
-        <span className="navbar-link">About Me</span>
-        <span className="navbar-link">Resume</span>
-      </div>
+      <Link to={"/"} className="navbar-link" >Home</Link>
+      <HashLink smooth to="/#projects" className="navbar-link">Projects</HashLink>
+      <HashLink smooth to="/#about-me" className="navbar-link">About Me</HashLink>
+      <Link className="navbar-link" to={'/resume'}>Resume</Link>
+    </div>
   );
 }
