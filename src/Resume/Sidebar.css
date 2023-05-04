@@ -99,8 +99,8 @@ td{
     min-width: 100%;
     }
 
-    .sub-section span, a{
-        font-size: 1rem;
+    .sub-section span, .contact-link{
+        font-size: .6rem;
         padding-left: 5px;
     }
   }
@@ -113,7 +113,7 @@ td{
         text-align: center;
     }
 
-    .sub-section span, a{
+    .sub-section span, .contact-link{
         font-size: .8rem;
         margin: 10px 5px 10px 5px;
     }

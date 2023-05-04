@@ -30,3 +30,50 @@
 hr{
     margin-top: 40px;
 }
+
+@media screen and (max-width: 430px) {
+  .main{
+    flex: 0 0 auto;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .project-image{
+    max-width: 80%;
+  }
+
+  .navbar{
+    max-width: 100%;
+  }
+
+  .footer{
+    bottom: 0;
+  }
+
+  .pic-collage{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main{
+    flex: 0 0 auto;
+    margin-top: 50px;
+  }
+
+  .project-image{
+    max-width: 80%;
+  }
+
+  .navbar{
+    max-width: 100%;
+  }
+
+  .pic-collage{
+    flex-wrap: wrap;
+  }
+
+  .footer{
+    position: fixed;
+  }
+}

@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import PropagateLoader from 'react-spinners/PropagateLoader';
 import Client from './Contentful';
 import ProjectImage from './ProjectPageImage';
-import './MainMenu.css';
 import NavBar from './NavBar';
 import './NavBar.css';
 import Footer from './Footer';

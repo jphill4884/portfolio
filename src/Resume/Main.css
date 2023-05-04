@@ -62,7 +62,7 @@ ul {
 }
 
 @media screen and (max-width: 430px) {
-    .main{
+    .main-resume{
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -70,7 +70,7 @@ ul {
         width: 100%; 
     }
 
-    .body{
+    .body-resume{
         padding: 10px;
     }
 
@@ -88,7 +88,7 @@ ul {
   }
 
 @media screen and (max-width: 1070px) {
-    .main{
+    .main-resume{
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -96,7 +96,7 @@ ul {
         width: 100%; 
     }
 
-    .body{
+    .body-resume{
         padding: 10px;
     }
 
