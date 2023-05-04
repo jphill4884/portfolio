@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
-import client from "./Contentful.js";
-import "./Main.css";
-import Mission from "./Mission.js";
-import Job from "./Job.js";
-import Education from "./Education.js";
+import { useEffect, useState } from 'react';
+import client from './Contentful.js';
+import './Main.css';
+import Mission from './Mission.js';
+import Job from './Job.js';
+import Education from './Education.js';
 
 function Main() {
 
