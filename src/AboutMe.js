@@ -1,14 +1,10 @@
+function AboutMe(props) {
+  return (
+    <div>
+      <div>{props.props.content[0].value}</div>
+      <br />
+    </div>
+  );
+}
 
-function AboutMe(props){
-    
-        return (
-            <div>
-            <div>
-            {props.props.content[0].value}
-            </div>
-            <br />
-            </div>
-        )
-    }
-    
-    export default AboutMe;
+export default AboutMe;
