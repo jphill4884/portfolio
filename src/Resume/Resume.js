@@ -8,14 +8,6 @@ function Resume() {
   return (
     <div>
       <NavBar />
-      <div className="download-button">
-        <a
-          href="../img/Kyle_Phillips_Resume.pdf"
-          download="Kyle_Phillips_Resume.pdf"
-        >
-          <button type="button">Download</button>
-        </a>
-      </div>
       <div className="resume">
         <SideBar />
         <Main />
