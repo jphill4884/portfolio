@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import RingLoader from "react-spinners/RingLoader";
 import Client from "./Contentful";
 import ProjectImage from "./ProjectPageImage";
@@ -56,7 +56,9 @@ function ProjectPage() {
           <div className="pic-collage">
             {webProject &&
               webProject.fields.projectImages.map((item, index) => (
+                <Link className="project-link" to={`/detail/${item.sys.id}`}>
                 <ProjectImage props={item} key={index} />
+                </Link>
               ))}
           </div>
         </div>
