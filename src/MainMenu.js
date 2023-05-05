@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Client from './Contentful';
 import Section from './Section';
+import AboutMe from './AboutMe';
 import './MainMenu.css';
 import './Footer.css';
 
@@ -71,7 +72,7 @@ function MainMenu() {
         </div>
       <div className="mission" id='about-me'>
         <h2>About Me</h2>
-        <p>{aboutMe && aboutMe.items[0].fields.text}</p>
+        <p>{aboutMe && aboutMe.items[0].fields.aboutMe.content.map((paragraph, index) => (<AboutMe key={index} props={paragraph} />))}</p>
       </div>
       <img
         src={require("./img/logo.png")}
