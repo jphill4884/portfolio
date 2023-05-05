@@ -39,6 +39,11 @@ hr{
     margin-top: -200px;
   }
 
+  .project-image-description{
+    font-weight: normal;
+    margin: 20px 0px 60px 0px;
+  }
+
 @media screen and (max-width: 430px) {
   .main{
     flex: 0 0 auto;

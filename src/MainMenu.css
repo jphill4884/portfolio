@@ -46,6 +46,10 @@ h2{
   align-items: flex-start;
 }
 
+.copyright{
+  margin: 20px 0px 60px 0px;
+}
+
 @media screen and (max-width: 420px) {
   .main, .project-link{
     flex: 0 0 auto;

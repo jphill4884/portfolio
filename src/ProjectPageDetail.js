@@ -51,8 +51,8 @@ function DetailPage() {
             className="project-image"
             alt="screencap of project"
           />
-          <div className="project-description">
-            <span>{projectDetail && projectDetail.fields.description}</span>
+          <div className="main">
+            <p>{projectDetail && projectDetail.fields.description}</p>
           </div>
         </div>
         <Footer />
