@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import PropagateLoader from "react-spinners/PropagateLoader";
+import RingLoader from "react-spinners/RingLoader";
 import Client from "./Contentful";
 import ProjectImage from "./ProjectPageImage";
-import "./MainMenu.css";
 import NavBar from "./NavBar";
 import "./NavBar.css";
 import Footer from "./Footer";
@@ -23,12 +22,19 @@ function GasPage() {
     );
     setIsLoading(false);
   }, [gasId, setIsLoading]);
-  console.log(gasProject);
 
   if (isLoading) {
-    return <PropagateLoader color="#C0C0C0" size={350} speed={20} />;
+    return (
+      <div className="loader">
+        <RingLoader color="#C0C0C0" size={300} speed={20} />
+      </div>
+    );
   } else if (!gasProject) {
-    return <PropagateLoader color="#C0C0C0" size={350} speed={20} />;
+    return (
+      <div className="loader">
+        <RingLoader color="#C0C0C0" size={350} speed={20} />
+      </div>
+    );
   } else {
     return (
       <div>

@@ -79,7 +79,7 @@ function MainMenu() {
         alt="personal logo"
         className="logo"
       />
-      <div className="section">© Justin Kyle Phillips 2023</div>
+      <div className="copyright">© Justin Kyle Phillips 2023</div>
     </div>
   );
 }
