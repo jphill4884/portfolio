@@ -27,7 +27,7 @@ function Main() {
       .getEntries({ content_type: "mission" })
       .then((missionData) => setMission(missionData));
   }, []);
-  console.log(mission);
+  
   return (
       <div className="main-resume">
         <div className="divider-row">
