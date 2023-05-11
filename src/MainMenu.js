@@ -73,10 +73,11 @@ function MainMenu() {
       <div className="mission" id='about-me'>
         <h2>About Me</h2>
         <p>{aboutMe && aboutMe.items[0].fields.aboutMe.content.map((paragraph, index) => (<AboutMe key={index} props={paragraph} />))}</p>
+        <Link to="./Resume" className='mission'>Find out more...</Link>
       </div>
       <img
-        src={require("./img/logo.png")}
-        alt="personal logo"
+        src={require("./img/macarons.png")}
+        alt="personal avatar"
         className="logo"
       />
       <div className="copyright">© Justin Kyle Phillips 2023</div>
