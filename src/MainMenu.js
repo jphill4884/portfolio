@@ -78,7 +78,7 @@ function MainMenu() {
       <img
         src={require("./img/macarons.png")}
         alt="personal avatar"
-        className="logo"
+        className="avatar"
       />
       <div className="copyright">© Justin Kyle Phillips 2023</div>
     </div>
