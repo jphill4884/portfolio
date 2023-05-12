@@ -61,6 +61,10 @@ ul {
     padding-bottom: 20px;
 }
 
+.job{
+    padding-bottom: 20px;
+}
+
 @media screen and (max-width: 430px) {
     .main-resume{
         display: flex;

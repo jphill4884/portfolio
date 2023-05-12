@@ -65,7 +65,7 @@ function SideBar() {
           </a>
         </div>
       </div>
-      <div className="divider-small">SKILLS</div>
+      <div className="divider-small">SKILLS ASSESSMENT</div>
       <div className="skill-section">
       {skills && skills.items.map((item, index) => (<Skill props={item} key={index} />))}
       </div>
