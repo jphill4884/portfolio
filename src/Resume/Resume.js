@@ -13,7 +13,7 @@ function Resume() {
 
   useEffect(() => {
     client
-      .getAsset("1WFVIY50X1Dndrd9faAR5E")
+      .getAsset("1v7Bynqo62zDtytV4cC9rH")
       .then((download) => setResumePdf(download));
     }, []);
     
